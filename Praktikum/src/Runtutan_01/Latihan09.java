@@ -30,6 +30,5 @@ public class Latihan09 {
         System.out.println("Semester  : " + myBio.getSemester(semester));
         System.out.println("GPA       : " + myBio.getGPA(gpa));
 
-        input.close();
     }
 }
