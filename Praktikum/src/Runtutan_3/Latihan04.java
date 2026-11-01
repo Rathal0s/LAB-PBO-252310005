@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Latihan04 {
 
-    // Menampilkan konfirmasi keluar. Return true jika pengguna memilih Yes.
+
     private static boolean konfirmasiKeluar() {
         int pilihan = JOptionPane.showConfirmDialog(null,
                 "Apakah anda ingin keluar?",
@@ -14,8 +14,7 @@ public class Latihan04 {
         return pilihan == JOptionPane.YES_OPTION;
     }
 
-    // Menampilkan dialog input. Jika Cancel/close (x), tanya keluar.
-    // Yes -> program selesai, No -> dialog input ditampilkan lagi.
+   
     private static String inputDialog(String pesan) {
         while (true) {
             String hasil = JOptionPane.showInputDialog(null,
